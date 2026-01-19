@@ -1,0 +1,55 @@
+# Build artifacts
+build/
+bin/
+out/
+.gradle/
+*.class
+*.jar
+*.war
+*.ear
+
+# IDE files
+.idea/
+.vscode/
+*.iml
+*.ipr
+*.iws
+.classpath
+.project
+.settings/
+.apt_generated/
+
+# Version control
+.git/
+.gitignore
+.gitattributes
+
+# Documentation
+*.md
+HELP.md
+
+# Environment files (will be provided at runtime)
+.env
+.env.local
+.env.prod
+.env.example
+
+# Test files
+src/test/
+*.test
+test-results/
+
+# OS files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# CI/CD files (not needed in image)
+.github/
+ci-cd.yaml
+
+# Logs
+*.log
+logs/
